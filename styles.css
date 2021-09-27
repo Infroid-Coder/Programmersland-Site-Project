@@ -1,0 +1,22 @@
+body{
+    background-color:rgb(0, 174, 255);
+}
+.list-sec{
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 1s;
+}
+.topics{
+    color: rgb(201, 201, 201);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: -1px;
+    text-shadow: 1px -1px black;
+    font-size: 30px;
+    text-align: center;
+}
+.list-sec:hover{
+    color:rgb(255, 255, 255);
+    text-shadow: -1px -1px black;
+}
