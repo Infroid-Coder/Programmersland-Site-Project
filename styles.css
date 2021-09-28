@@ -8,6 +8,10 @@ body{
     text-decoration: none;
     transition: 1s;
 }
+.list-sec::selection{
+    background-color:yellow;
+    color:black;
+}
 .topics{
     color: rgb(201, 201, 201);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
