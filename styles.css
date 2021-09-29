@@ -7,10 +7,12 @@ body{
     font-size: 20px;
     text-decoration: none;
     transition: 1s;
+    animation-name:all;
+    animation-duration:3s;
 }
 .list-sec::selection{
-    background-color:yellow;
-    color:black;
+    color: black;
+    background-color: yellow;
 }
 .topics{
     color: rgb(201, 201, 201);
@@ -19,8 +21,63 @@ body{
     text-shadow: 1px -1px black;
     font-size: 30px;
     text-align: center;
+    animation-name:all;
+    animation-duration:3s;
+}
+.topics::selection{
+    color: black;
+    background-color: yellow;
 }
 .list-sec:hover{
     color:rgb(255, 255, 255);
     text-shadow: -1px -1px black;
+    animation-name:all;
+    animation-duration:3s;
+}
+.normal{
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    border: solid black;
+    display: inline-block;
+    padding:10px;
+    padding-right:2px;
+    animation-name:all;
+    animation-duration:3s;
+}
+.normal::selection{
+    color: black;
+    background-color: yellow;
+}
+.links{
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    border: solid white;
+    border-radius: 30px;
+    background-color: white;
+    display: inline-block;
+    padding:10px;
+    transition: 1s;
+    animation-name:all;
+    animation-duration:3s;
+}
+.links::selection{
+    color: black;
+    background-color: yellow;
+}
+.links:hover{
+    color:rgb(255, 255, 255);
+    text-shadow: -1px -1px black;
+    border: solid black;
+    background-color: black;
+    transform: rotate(370deg);
+}
+@keyframes all{
+    0%{
+        opacity: 0%;
+        transform:translateY(-700px) ;
+    }
 }
