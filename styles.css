@@ -70,10 +70,7 @@ body{
     background-color: yellow;
 }
 .links:hover{
-    color:orange;
-    text-shadow: -1px -1px black;
-    border: solid yellow;
-    background-color: red;
+    opacity:10%;
     cursor:not-allowed;
 }
 @keyframes all{
