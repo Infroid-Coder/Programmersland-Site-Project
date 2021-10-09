@@ -51,6 +51,7 @@ body{
     background-color: yellow;
 }
 .links{
+    cursor:hover;
     color: rgb(0, 0, 0);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
@@ -69,11 +70,11 @@ body{
     background-color: yellow;
 }
 .links:hover{
-    color:rgb(255, 255, 255);
-    text-shadow: -1px -1px black;
-    border: solid black;
-    background-color: black;
-    transform: rotate(370deg);
+    color:greenyellow;
+    text-shadow: -1px -1px white;
+    border: solid white;
+    background-color: grey;
+    cursor:not-allowed;
 }
 @keyframes all{
     0%{
